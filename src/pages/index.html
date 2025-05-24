@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
-    <title>Template Electron</title>
+    <title>Bloco de Notas</title>
 </head>
+
 <body>
-    <h1>Template Electron</h1>
+    <div class="conteiner">
+        <h1>📝 Bloco de Notas </h1>
+
+        <textarea id="nota" placeholder="Digite sua nota aqui..."></textarea>
+
+        <button onclick="salvarNota()">Salvar Nota</button>
+
+        <h2>Notas Salvas</h2>
+        <ul id="listaNotas"></ul>
+
+    </div>
 
 
     <script src="../scripts/script.js"></script>
 </body>
+
 </html>
